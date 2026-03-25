@@ -1,0 +1,13 @@
+# Cover Letter Template - Output
+
+| Section                                        | Column A                                                           | Column B | Column C                                   |
+| ------------------------------------------------ | -------------------------------------------------------------------- | ---------- | -------------------------------------------- |
+| **1) Header**                                  | Hiring manager's name                                              | Information not available in Job Description or skillset profile | Infer from JD or Google search |
+|                                                | Title                                                              | Information not available in Job Description or skillset profile | Infer from JD or Google search |
+|                                                | Company name                                                       | Banter Toys & Collectibles | Infer from JD |
+|                                                | Address                                                            | Dandenong South, Melbourne VIC, Australia | Infer from JD or Google search |
+|                                                |                                                                    |          |                                            |
+| **2) Opening Paragraph — Why You're Writing** | The position you're applying for                                   | Data Analyst | Infer from JD |
+|                                                | Where you found it                                                 | Information not provided in Job Description | Infer from JD or leave blank |
+|                                                | A brief hook about yourself (your field, passion, or current role) | • I am a data analyst and software engineer with strong proficiency in Python, Pandas, and NumPy for data analysis and insight generation<br/>• I have hands-on experience transforming raw data into actionable business intelligence through real-world projects<br/>• My passion lies in using data-driven solutions to solve complex business problems and improve operational efficiency | Refer to source |
+|                                                | A quick one-sentence reason why you're a good fit                  | My combination of advanced data analysis skills, business systems experience, and practical inventory management expertise aligns perfectly with your need for someone who can deliver transformative insights across sales, customer, and operational data. | Refer to source |

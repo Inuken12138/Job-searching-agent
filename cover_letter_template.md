@@ -8,7 +8,9 @@ Have this line at the top of every cover letter.
 
 roland.luo1213@gmail.com | 23 Jauncey Pl, Hillsdale NSW 2036 | 0421619749“
 
-Address it personally if possible:
+
+
+2. Address it personally if possible:
 
 “Dear [Hiring Manager’s Name],”
 
@@ -18,7 +20,23 @@ If unknown, use:
 
 Avoid “To Whom It May Concern.”
 
-Give me a prefilled dot points for key messages for each of the subsection below:
+
+
+prefilled dot points for key messages for each of the subsection below:
+
+
+
+
+| Section                                        | Column A                                                           | Column B | Column C                                |
+| ------------------------------------------------ | -------------------------------------------------------------------- | ---------- | ----------------------------------------- |
+| **1) Header**                                  | Employer's name                                                    |          | Search on google if unknown<br /><br /> |
+|                                                | Title                                                              |          | Search on google if unknown             |
+|                                                | Company name                                                       |          | Search on google if unknown             |
+|                                                | Address                                                            |          | Search on google if unknown             |
+| **2) Opening Paragraph — Why You're Writing** | The position you're applying for                                   |          |                                         |
+|                                                | Where you found it                                                 |          |                                         |
+|                                                | A brief hook about yourself (your field, passion, or current role) |          |                                         |
+|                                                | A quick one-sentence reason why you're a good fit                  |          |                                         |
 
 Prefill these information below:
 
