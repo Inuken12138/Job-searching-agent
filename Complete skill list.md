@@ -154,8 +154,7 @@ Key Outcomes:
 
 ## My Responsibilities & Contributions
 
-- Led data acquisition by web scrbilities & Contributions
-- Technical Ownershipaping book metadata from Google Books and Open Library.
+- Led data acquisition by web scraping book metadata from Google Books and Open Library.
 - Co-designed the hybrid system framework and project proposal.
 - Took full ownership of the collaborative filtering module and integrated it with the content-based component into one unified recommendation engine.
 - Supported debugging, optimization, and quality assurance across team code to ensure final system operability.
@@ -474,7 +473,7 @@ Development team composed of final-year Master’s students.
 ### 项目成果
 
 - 客户对项目整体交付结果表示高度满意。
-- 客户明确表达了在后续业���中落地本平台或借鉴其方案的意向。
+- 客户明确表达了在后续业务中落地本平台或借鉴其方案的意向。
 - 客户重点认可：
   - 会议沟通的专业度
   - 清晰高效的沟通能力
