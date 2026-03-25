@@ -12,7 +12,7 @@ These results indicate that although Roland is originally from overseas, he comm
 
 Other language skills: Chinese (Mandarin) – Native; Lao – Fluent; Japanese – Intermediate.
 
-# Skills summary- in depth explaination:
+# Skills summary- in depth explanation:
 
 Python: Strong proficiency
 
