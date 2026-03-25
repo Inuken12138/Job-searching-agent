@@ -1015,7 +1015,7 @@ Cycle Re-cycle Club (CRC)
 Bicycle volunteer mechanic July 2024 – Present
 
 - CRC is a not-for-profit bicycle workshop located at Waterloo where we take donated second-hand bicycles and refurbish them for sale at cost price. We also fix bicycles and teach people of the community how to fix their own bicycles.
-- I am mainly tasked with assisting people with their bicycle repairs, teaching them step-by-step how to adjust their breaks, how to repair tyre punctures and other common maintenance
+- I am mainly tasked with assisting people with their bicycle repairs, teaching them step-by-step how to adjust their brakes, how to repair tyre punctures and other common maintenance
 - I also assist other mechanic occasionally.
 - I inspect and repair donated bikes and refurbish them to an acceptable standard.
 - While repairing bicycles, I follow the LIFT approach:
