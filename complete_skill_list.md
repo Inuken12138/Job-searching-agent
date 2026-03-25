@@ -770,7 +770,9 @@ Bicycle volunteer mechanic July 2024 – Present
 
 # More about myself: 
 
-
+- Mention personal values
+- My personality
+- My interest and expertise
 
 
 Backup:
