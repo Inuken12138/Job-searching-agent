@@ -86,37 +86,7 @@ How many years' experience do you have with sales and operations planning (S & O
 |                                                                | Dimension 2: Specific products/Business lines (Concrete level)<br /> What to mention: <br />- specific products or services - Recent initiatives e.g. AI integration<br />- Business direction<br />- Mention something that impressed you<br />- Then connect it to your interest and expertise                                                                                                                                                                                                                                                                                                     |          | web search or Infer from JD  |
 |                                                                | Dimension 3: Employee Insights/Network (Optional)<br />- Only if you actually know someone at the company<br />- Can be old or new acquaintances<br />- Mention conversation you have had with employees or what impressed you: Team dynamics/opportunity for impactful projects/growth opportunities                                                                                                                                                                                                                                                                                                |          | I will do this part myself   |
 
-# Example Workflow
-
-Given the JD and template above, here is the complete two-agent workflow:
-
-## Step 1: Agent A (Table Filling)
-
-**Input:**
-- The JD pasted above (Data Analyst at Banter Toys)
-- Template from `source/cover_letter_template.md`
-- Source document from `source/complete_skill_list_26032026.md`
-
-**Agent A action:**
-Fill Column B of the template using the JD, the template instructions in Column C, and the source document.
-
-**Output file:**
-`Output_data_analyst_banter_toys.md` — a completed planning table with Column B filled
-
-## Step 2: Agent B (Letter Composition)
-
-**Input:**
-- The planning table produced above: `Output_data_analyst_banter_toys.md`
-
-**Agent B action:**
-Convert the completed planning table into a polished one-page cover letter.
-
-**Output file:**
-`Cover_Letter_data_analyst_banter_toys.md` — the final tailored cover letter ready to send
-
----
-
-# Source document
+# source document
 
 Check workspace for the document
 
