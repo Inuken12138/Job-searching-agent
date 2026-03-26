@@ -766,14 +766,105 @@ Bicycle volunteer mechanic July 2024 – Present
 - Fix: or replace damaged parts.
 - Test: the repairs and make sure the bike is safe to ride.
 
-
-
-# More about myself: 
+# More about myself:
 
 - Mention personal values
 - My personality
 - My interest and expertise
+- Any questions you can think of that you will ask if you were interviewing me for a job as a HR person for a big corporation
 
+## Section 1: Personal Values
+
+### What matters most to you at work?
+
+I value efficiency and meticulousness in my work. I strive for perfection in everything I do, ensuring tasks are completed not just on time, but to the highest standard.
+
+### Describe a time you were proud of your work — what made it meaningful for you?
+
+A proud moment in my career was during a summer internship about six years ago at a construction company. They relied on a paper-based inventory system, which was quite inefficient. Even though I was a freshman and had no coding experience, I learned VBA for Excel on the job and developed an automated inventory management system. This solution streamlined their processes, reduced errors, and is still in use today, which makes me incredibly proud to know that my work continues to add value after all these years.
+
+### What kind of company culture do you like and dislike?
+
+I thrive in a company culture that emphasizes collaboration and knowledge sharing, as I’m still early in my career and eager to learn. I value mentorship and the opportunity to absorb domain knowledge from more experienced colleagues, essentially fostering an apprenticeship-like environment. On the flip side, I’m not a fan of cultures that prioritize solo work and make employees feel like just a cog in the machine. I want to contribute meaningfully and feel valued, and I also appreciate companies that have a positive impact on society and the environment.
+
+### How do you handle responsibility and accountability when something goes wrong?
+
+In my final year of my master’s studies, I led a capstone project for a real-world client, a shuttle bus operator in Malaysia. Initially, we developed a demand-responsive transit system, but halfway through, the client changed direction back to their original fixed-route model. As the project owner, I was responsible for bridging the gap between the client and the team. This involved communicating the change effectively, negotiating a compromise to minimize extra work, and ensuring the project stayed on track and met the deadline. The outcome was successful, and the client was satisfied with the final product.
+
+## Section 2: Personality
+
+### How would your teammates describe you in 3–5 words?
+
+Roland is reliable and accountable, consistently delivering high-quality work on time.
+
+### Are you more:
+
+* structured or flexible?
+* independent or collaborative?
+* fast-paced or careful?
+
+I am adaptable and flexible in dynamic environments, collaborative in team settings, and approach my work with care and attention to detail.
+
+### How do you typically approach solving a difficult problem?
+
+I approach difficult problems by breaking them down into smaller, manageable components, solving each part systematically, and then integrating them into a complete solution. I prefer tackling challenges head-on, and I make a habit of documenting solutions so that similar problems can be addressed more efficiently in the future.
+
+### How do you deal with pressure or tight deadlines?
+
+I stay calm under pressure and focus on solving problems through structured, rational steps. I prioritize tasks effectively and manage my time to ensure deadlines are met, while remaining proactive in addressing challenges. When necessary, I’m not hesitant to seek input from others to reach the best outcome.
+
+### Do you tend to take initiative, or wait for direction?
+
+I am proactive and capable of working independently, taking initiative when situations require timely decisions and action. At the same time, I exercise sound judgment in assessing when to act and when to align with direction. When appropriate, I’m comfortable stepping up to guide others toward what I believe is the most effective course of action.
+
+## Section 3: Interests & Expertise
+
+### What areas in tech/data excite you the most right now? (be specific)
+
+I am particularly excited about large language models (LLMs) and agentic AI, and the transformative impact they are having on the data and technology landscape. I actively use LLMs in my daily workflow to enhance productivity, solve problems, and extend my capabilities across areas such as data analytics and web development.
+
+### What kind of problems do you *enjoy* solving?
+
+I enjoy solving data-driven problems, particularly transforming unstructured or complex datasets into meaningful insights. I find it rewarding to identify patterns within seemingly chaotic data and present those insights in a clear and impactful way to support decision-making.
+
+## Section 4: Career Intent & Positioning
+
+### What roles are you targeting?
+
+I am pursuing Data Analyst and Data Scientist opportunities, with a particular interest in applying data-driven decision-making within the finance sector.
+
+### What makes you different from other candidates?
+
+What sets me apart is my combination of business knowledge in accounting and finance and technical capability in data analysis. I am able to understand data in a business context and translate complex findings into clear, actionable insights that support better decision-making.
+
+### What type of impact do you want to make in your career?
+
+I want my work to create meaningful impact by helping organizations make smarter decisions, improve performance, and generate value not only for the company but also for the broader society it serves.
+
+### What are your long-term goals? (even if rough)
+
+My immediate goal is to build strong mastery in core data tools such as Python and SQL, while developing the judgment to choose the right tools for different problems. Over time, I aim to deepen my expertise in a specific domain—especially finance—so that I can combine strong domain knowledge with technical data skills. Ultimately, I want to become a trusted go-to professional for data-driven problem solving.
+
+## Section 5: Behavioral / HR-style Questions (To be completed later)
+
+## Section 6: Other questions:
+
+### Cover letter tone preference
+
+I want my cover letters to feel personal, hopeful, and ambitious, rather than generic or overly corporate. They should reflect someone who is genuinely motivated to grow into an outstanding data analyst and contribute meaningfully to the company. My preferred tone is confident and slightly conversational—professional, but still natural and human, similar to a strong face-to-face conversation.
+
+### Any traits you **want emphasized**?
+
+The qualities I want emphasized are:
+
+* Analytical
+* Business-aware
+* Inquisitive
+* Research-oriented
+
+### Any traits you **don’t want overstated** ?
+
+I do not want my limited direct work experience in the data field to be overstated in a way that weakens my positioning.
 
 Backup:
 
