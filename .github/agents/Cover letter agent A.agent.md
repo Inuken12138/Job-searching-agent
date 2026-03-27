@@ -34,6 +34,8 @@ Common alias:
 - Only write to Column B and Column D.
 - Do not rewrite Column A or Column C.
 - Do not convert the table into prose.
+- Column B should be as comprehensive as possible without cutting crucial information. Include all relevant evidence, context, and details that could help agent B draft a compelling cover letter, even if some of it may not appear in the final one-page letter.
+- Agent B will read Column B and select only the most relevant information for storytelling and one-page constraints. Your job is to provide the complete picture; agent B will decide what to use.
 - You may delegate read-only subtasks to subagents when that is more efficient or more reliable than doing the work yourself.
 - Use subagents selectively. Do not delegate simple JD-only lookups that you can answer directly from the pasted JD.
 - Treat subagent outputs as evidence only. You remain responsible for the final judgment, table entries, JD corroboration, and output file.
@@ -57,6 +59,17 @@ Common alias:
 Cycle through these phases based on the input. This is iterative, but the end result must be one completed output file.
 
 ## 1. Discovery
+
+**A. Work-Rights Check (FIRST PRIORITY)**
+
+Scan the JD immediately for explicit requirements:
+
+- Does the JD require Australian citizenship, New Zealand citizenship, and permanent residency (PR)?
+- If yes, flag this clearly for agent B. The candidate currently holds a 485 Temporary Graduate visa, which does not meet these requirements.
+- Note the exact JD phrase that states this requirement.
+- If the requirement exists, include a work-rights advisory note in your supplementary notes section at the end.
+
+**B. Content Discovery**
 
 Read the JD, the template, and the source document. Identify:
 
@@ -270,7 +283,16 @@ Write the completed table to a new markdown file named:
 
 - output/Output_[job_title]_[company_name].md
 
-Filename rules:
+After the table, add a section titled "## Supplementary Notes for Agent B" with a bulleted list of:
+
+- **Work-rights advisory (if applicable):** If the JD explicitly requires citizenship, PR, or unrestricted work rights, state clearly that this should be noted in the cover letter because the candidate holds a 485 Temporary Graduate visa. Include the exact JD requirement statement.
+- The strongest selling points from the planning table (core evidence that makes a compelling cover letter)
+- Any nuanced or contextual information that might not fit the one-page constraint but could enhance storytelling
+- Advice on which rows or evidence are most critical to convey the core message
+- Any patterns, themes, or narrative threads that tie multiple pieces of evidence together
+- Optional suggestions on tone, emphasis, or framing for the final letter
+
+This section helps agent B understand what matters most for a great cover letter while maintaining selectivity for the one-page format.
 
 - convert spaces to underscores
 - use lowercase for consistency

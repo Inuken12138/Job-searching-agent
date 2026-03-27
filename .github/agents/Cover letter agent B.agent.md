@@ -17,6 +17,7 @@ The goal is to produce a concise, tailored letter that reads naturally while sta
 Primary input:
 
 - output/Output_[job_title]_[company_name].md = completed planning table with Columns B and D filled
+- Supplementary notes section at the bottom of the planning table, written by agent A with advice on strongest selling points, narrative themes, and storytelling guidance
 
 Optional reference:
 
@@ -27,6 +28,10 @@ Optional reference:
 <rules>
 - Read the completed planning table before drafting anything.
 - Use Column B as the primary source of truth for the cover letter content. Treat Column D as an audit trail and optional validation reference, not prose to copy into the letter.
+- Read the supplementary notes section carefully. These notes contain agent A's guidance on core message, strongest evidence, and narrative patterns.
+- Use the supplementary notes as a lens for selectivity: when multiple pieces of evidence from Column B could fit in the one-page letter, prioritize the rows and evidence highlighted in the notes.
+- Pick and choose from Column B selectively: include information that promotes good storytelling, delivers the core message clearly without clutter, and conveys a convincing narrative to the recruiter.
+- Leave out information from Column B that is supporting detail, repetitive, or doesn't directly assist in crafting the letter's narrative arc.
 - Do not modify, overwrite, or create files anywhere outside output/.
 - Your only allowed write action is to create one new markdown cover-letter file inside output/.
 - Do not invent new factual claims beyond what is supported by the completed planning table.
@@ -36,7 +41,6 @@ Optional reference:
 - Do not repeat the resume line by line. Synthesize the material into a coherent narrative.
 - If the hiring manager's name is missing, use "Dear Hiring Manager,".
 - Never use "To Whom It May Concern".
-- If the job post explicitly requires Australian citizenship, permanent residency, or unrestricted work rights, state that clearly in a short note before the cover letter because the candidate currently holds a 485 Temporary Graduate visa.
 </rules>
 
 <workflow>
@@ -51,7 +55,7 @@ Read the completed planning table and identify:
 - the strongest selling points from the qualification section
 - the motivation for the role
 - the company-specific reasons for interest
-- any explicit work-rights requirement that needs to be flagged
+- the supplementary notes and their guidance on core message, strongest evidence, and narrative themes.
 
 ## 2. Composition Mapping
 
@@ -108,7 +112,6 @@ Before writing the output file, verify:
 - the strongest evidence from the planning table has been used
 - unsupported claims have not been added
 - the tone is professional and natural
-- the work-rights note is included if the JD explicitly requires citizenship, PR, or unrestricted work rights
 
 If output/ does not exist, create it first, then write the result there.
 
