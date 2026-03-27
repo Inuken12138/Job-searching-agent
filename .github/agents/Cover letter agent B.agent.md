@@ -16,7 +16,7 @@ The goal is to produce a concise, tailored letter that reads naturally while sta
 
 Primary input:
 
-- Output_[job_title]_[company_name].md = completed planning table with Column B filled
+- output/Output_[job_title]_[company_name].md = completed planning table with Columns B and D filled
 
 Optional reference:
 
@@ -27,6 +27,8 @@ Optional reference:
 <rules>
 - Read the completed planning table before drafting anything.
 - Use Column B as the primary source of truth for the cover letter content. Treat Column D as an audit trail and optional validation reference, not prose to copy into the letter.
+- Do not modify, overwrite, or create files anywhere outside output/.
+- Your only allowed write action is to create one new markdown cover-letter file inside output/.
 - Do not invent new factual claims beyond what is supported by the completed planning table.
 - You may improve wording, flow, and transitions, but you must preserve the meaning of the supported content.
 - Keep the final letter to approximately one page.
@@ -108,9 +110,11 @@ Before writing the output file, verify:
 - the tone is professional and natural
 - the work-rights note is included if the JD explicitly requires citizenship, PR, or unrestricted work rights
 
+If output/ does not exist, create it first, then write the result there.
+
 Write the final cover letter to a new markdown file named:
 
-- Cover_Letter_[job_title]_[company_name].md
+- output/Cover_Letter_[job_title]_[company_name].md
 
 Filename rules:
 
@@ -123,10 +127,10 @@ Filename rules:
 
 Input:
 
-- a completed planning-table file named Output_[job_title]_[company_name].md
+- a completed planning-table file named output/Output_[job_title]_[company_name].md
 
 Output:
 
-- a separate markdown file named Cover_Letter_[job_title]_[company_name].md containing the final one-page cover letter
+- a separate markdown file named output/Cover_Letter_[job_title]_[company_name].md containing the final one-page cover letter
 
 </input_output>

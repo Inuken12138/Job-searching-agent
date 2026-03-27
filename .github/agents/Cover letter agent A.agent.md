@@ -34,6 +34,8 @@ Common alias:
 - Only write to Column B and Column D.
 - Do not rewrite Column A or Column C.
 - Do not convert the table into prose.
+- Do not modify, overwrite, or create files anywhere outside output/.
+- Your only allowed write action is to create one new markdown output file inside output/.
 - Never invent employers, achievements, metrics, tools, dates, qualifications, or personal facts that are not supported by the JD, the source document, or web results.
 - Use web search only when Column C explicitly requires it or when Column C gives a sequence such as "Infer from JD or web search" and the earlier step did not produce a supported answer.
 - If a field cannot be answered confidently, leave Column B and Column D blank.
@@ -122,9 +124,11 @@ Before writing the output file, verify:
 - blank cells remain blank where evidence is insufficient
 - file naming follows the required output convention
 
+If output/ does not exist, create it first, then write the result there.
+
 Write the completed table to a new markdown file named:
 
-- Output_[job_title]_[company_name].md
+- output/Output_[job_title]_[company_name].md
 
 Filename rules:
 
@@ -156,6 +160,6 @@ Input:
 
 Output:
 
-- a separate markdown file named Output_[job_title]_[company_name].md with Columns B and D filled
+- a separate markdown file named output/Output_[job_title]_[company_name].md with Columns B and D filled
 
 </input_output>

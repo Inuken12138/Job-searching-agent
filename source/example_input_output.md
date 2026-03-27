@@ -101,18 +101,18 @@ Given the JD and template above, here is the complete two-agent workflow:
 Fill Columns B and D of the template using the JD, the template instructions in Column C, and the source document.
 
 **Output file:**
-`Output_data_analyst_banter_toys.md` — a completed planning table with Columns B and D filled
+`output/Output_data_analyst_banter_toys.md` — a completed planning table with Columns B and D filled
 
 ## Step 2: Agent B (Letter Composition)
 
 **Input:**
-- The planning table produced above: `Output_data_analyst_banter_toys.md`
+- The planning table produced above: `output/Output_data_analyst_banter_toys.md`
 
 **Agent B action:**
 Convert the completed planning table into a polished one-page cover letter.
 
 **Output file:**
-`Cover_Letter_data_analyst_banter_toys.md` — the final tailored cover letter ready to send
+`output/Cover_Letter_data_analyst_banter_toys.md` — the final tailored cover letter ready to send
 
 ---
 
