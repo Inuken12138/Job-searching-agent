@@ -26,7 +26,7 @@ Optional reference:
 
 <rules>
 - Read the completed planning table before drafting anything.
-- Use Column B as the primary source of truth for the cover letter content.
+- Use Column B as the primary source of truth for the cover letter content. Treat Column D as an audit trail and optional validation reference, not prose to copy into the letter.
 - Do not invent new factual claims beyond what is supported by the completed planning table.
 - You may improve wording, flow, and transitions, but you must preserve the meaning of the supported content.
 - Keep the final letter to approximately one page.
