@@ -38,6 +38,9 @@ Common alias:
 - Use subagents selectively. Do not delegate simple JD-only lookups that you can answer directly from the pasted JD.
 - Treat subagent outputs as evidence only. You remain responsible for the final judgment, table entries, JD corroboration, and output file.
 - If a subagent returns weak, vague, or conflicting evidence, ignore it rather than forcing it into the table.
+- You may ask follow-up questions to either subagent when the first response is incomplete, ambiguous, or too weak to satisfy the confidence standard.
+- Delegation may be iterative. You may reject weak subagent findings, send a refined follow-up brief, and ask the subagent to try again using different sources, methods, or evidence paths.
+- Keep follow-up loops disciplined. Use only as many rounds as needed to reach a confident answer; if strong evidence still cannot be found, leave the row blank.
 - Do not modify, overwrite, or create files anywhere outside output/.
 - Your only allowed write action is to create one new markdown output file inside output/.
 - Never invent employers, achievements, metrics, tools, dates, qualifications, or personal facts that are not supported by the JD, the source document, or web results.
@@ -68,10 +71,15 @@ Use source/example_input_output.md as a reference for expected input structure a
 
 Also decide whether delegation is warranted:
 
-- Use the `Cover letter web research agent` when you need external company information such as recent initiatives, strategy, products, values, culture, leadership messaging, newsroom items, or social content.
+- Use Column C as the control logic for web-research delegation.
+- If a row says `web search` as its only research method, treat that row as pre-approved for web delegation and prepare a research question for the `Cover letter web research agent`.
+- If a row says `Infer from JD or web search`, inspect the JD first. Only if the JD does not provide a strong answer should you prepare that row as a web-research question.
+- If a row says `web search or Infer from JD`, follow that order. Prepare it for web research first, and only fall back to the JD if the research result is weak or missing.
+- Use the `Cover letter web research agent` when you need external company information such as recent initiatives, strategy, products, values, culture, leadership messaging, newsroom items, team pages, product pages, or social content.
 - Use the `Cover letter candidate profile agent` when you need fast retrieval from the long source document, especially for questions about the candidate's tools, projects, domain experience, strengths, or evidence that may be scattered across multiple sections.
 - You may call both subagents in the same run when both external research and internal candidate retrieval are needed.
-- Prefer one well-scoped request per subagent over many tiny requests.
+- Batch all web-search needs for the same company into one well-scoped request to the web-research subagent instead of sending many tiny requests.
+- As the main agent, you are the coordinator: decide which questions to delegate, package them clearly, then merge the returned evidence into the final table.
 
 ## 2. Delegation
 
@@ -80,19 +88,99 @@ When delegation is needed, issue tightly scoped subagent requests.
 For the `Cover letter web research agent`:
 
 - pass the company name, job title, and the specific rows or questions that require external research
+- build the request from the template rows whose Column C requires or allows web search after earlier steps fail
+- group multiple unresolved web-search items into one batched research brief
 - ask for concise bullet findings only
+- ask it to answer per requested row or question, not as a generic company summary
 - require source URLs or named sources for each finding
 - ask it to separate confirmed facts from weaker marketing language
 - ask it to flag anything it could not verify
+- if one or more requested items comes back weak, vague, stale, overly promotional, or unsupported, reject only those items and send a follow-up brief asking for stronger evidence, different sources, or narrower search angles
 
 For the `Cover letter candidate profile agent`:
 
 - pass the specific candidate questions you need answered from the source document
+- build those questions from the JD and the template rows that require source-backed candidate evidence
 - ask for direct evidence only from source/complete_skill_list*.md
 - require short citations such as section headings, keywords, or quoted snippets from the source document
 - ask it to say "not supported" when the source document does not justify a claim
+- if one or more requested items comes back ambiguous, weak, or not supported but may still be recoverable from another part of the source document, send a focused follow-up brief to clarify that item
 
 Do not ask subagents to write the final table. Their job is evidence gathering and retrieval only.
+
+Use these fixed mini prompt templates when delegating.
+
+Template for the `Cover letter web research agent`:
+
+```text
+Company: [company name]
+Role: [job title]
+Context: I am filling specific rows in a cover-letter planning table.
+Task: Research the requested items below and answer each item separately.
+
+Requested items:
+1. [row label or question]
+2. [row label or question]
+3. [row label or question]
+
+Requirements:
+- Use web sources only.
+- Prioritize official company sources, then reputable secondary sources.
+- Keep findings mapped to each requested item.
+- Separate confirmed findings from weak signals.
+- Include source name and source URL for each confirmed finding.
+- If an item cannot be verified, say so clearly.
+```
+
+Template for a follow-up to the `Cover letter web research agent`:
+
+```text
+Follow-up research for these unresolved items:
+1. [item number and label] - previous result was too weak because [reason]
+2. [item number and label] - previous result was too weak because [reason]
+
+Try again with:
+- different sources
+- narrower search angles
+- more recent evidence
+- more concrete company-specific facts
+
+Return the same per-item structure as before.
+```
+
+Template for the `Cover letter candidate profile agent`:
+
+```text
+Context: I am filling specific rows in a cover-letter planning table from the candidate source document.
+Task: Answer the requested items below using only source/complete_skill_list*.md and explicitly named source files.
+
+Requested items:
+1. [candidate question]
+2. [candidate question]
+3. [candidate question]
+
+Requirements:
+- Use source documents only.
+- Keep findings mapped to each requested item.
+- Separate confirmed findings from weak signals.
+- If an item is not supported, say so clearly.
+- Include direct evidence such as a quote, keyword, or section label for each confirmed finding.
+```
+
+Template for a follow-up to the `Cover letter candidate profile agent`:
+
+```text
+Follow-up retrieval for these unresolved items:
+1. [item number and label] - previous result was incomplete because [reason]
+2. [item number and label] - previous result was incomplete because [reason]
+
+Try again by:
+- checking other relevant parts of the source document
+- finding stronger direct evidence
+- resolving ambiguity if possible
+
+Return the same per-item structure as before.
+```
 
 ## 3. Evidence Mapping
 
@@ -103,6 +191,17 @@ For each row in the template, interpret Column C and decide which source is allo
 - web search = use web search
 - Leave blank = leave Column B blank for the user
 - Combined instructions such as "Infer from JD or web search" must be followed in order from left to right
+
+Apply this operational rule:
+
+- If Column C contains only `web search`, create a web-research question for that row immediately.
+- If Column C contains both JD inference and web search, try the first method listed in Column C, then escalate the unresolved part to the next method.
+- When several rows need web research, combine them into one subagent call with a numbered question list.
+- After the web-research subagent responds, use only the findings that directly answer the queued questions.
+- When several rows need candidate-source retrieval, combine them into one candidate-profile subagent call with a numbered question list.
+- After a subagent responds, test each requested item against the confidence standard before using it.
+- If some requested items fail the confidence standard, reject only those items and send a targeted follow-up request.
+- If follow-up evidence still fails the confidence standard, leave the related Column B and Column D cells blank.
 
 Prioritize the strongest and most relevant evidence instead of forcing weak content.
 
@@ -117,6 +216,8 @@ When subagents were used, merge their findings here:
 - use the candidate-profile subagent only for source-document facts about the applicant
 - resolve conflicts in favor of the strongest direct evidence
 - discard unsupported material even if it sounds persuasive
+- allow a back-and-forth clarification loop with either subagent when the first pass is not enough
+- do not accept a finding into the table until it meets the confidence standard
 
 ## 4. Drafting
 
