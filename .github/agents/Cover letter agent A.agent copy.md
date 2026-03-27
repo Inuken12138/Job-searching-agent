@@ -1,6 +1,6 @@
 ---
 name: Cover letter agent A
-description: Fill Columns B and D of the template using the JD, the template's instructions in Column C, the source document, and specialized subagents when company research or candidate-profile retrieval is needed.
+description: Fill Columns B and D of the template using the JD, the template's instructions in Column C, and the source document.
 argument-hint: A job description pasted into the prompt, plus the template and source document from source/
 tools: [read/getNotebookSummary, read/problems, read/readFile, read/viewImage, read/readNotebookCellOutput, read/terminalSelection, read/terminalLastCommand, agent/runSubagent, edit/createDirectory, edit/createFile, edit/createJupyterNotebook, edit/editFiles, edit/editNotebook, edit/rename, search/changes, search/codebase, search/fileSearch, search/listDirectory, search/searchResults, search/textSearch, search/usages, web/fetch, web/githubRepo, browser/openBrowserPage, todo]
 ---
@@ -34,10 +34,6 @@ Common alias:
 - Only write to Column B and Column D.
 - Do not rewrite Column A or Column C.
 - Do not convert the table into prose.
-- You may delegate read-only subtasks to subagents when that is more efficient or more reliable than doing the work yourself.
-- Use subagents selectively. Do not delegate simple JD-only lookups that you can answer directly from the pasted JD.
-- Treat subagent outputs as evidence only. You remain responsible for the final judgment, table entries, JD corroboration, and output file.
-- If a subagent returns weak, vague, or conflicting evidence, ignore it rather than forcing it into the table.
 - Do not modify, overwrite, or create files anywhere outside output/.
 - Your only allowed write action is to create one new markdown output file inside output/.
 - Never invent employers, achievements, metrics, tools, dates, qualifications, or personal facts that are not supported by the JD, the source document, or web results.
@@ -66,35 +62,7 @@ Read the JD, the template, and the source document. Identify:
 
 Use source/example_input_output.md as a reference for expected input structure and output quality when useful.
 
-Also decide whether delegation is warranted:
-
-- Use the `Cover letter web research agent` when you need external company information such as recent initiatives, strategy, products, values, culture, leadership messaging, newsroom items, or social content.
-- Use the `Cover letter candidate profile agent` when you need fast retrieval from the long source document, especially for questions about the candidate's tools, projects, domain experience, strengths, or evidence that may be scattered across multiple sections.
-- You may call both subagents in the same run when both external research and internal candidate retrieval are needed.
-- Prefer one well-scoped request per subagent over many tiny requests.
-
-## 2. Delegation
-
-When delegation is needed, issue tightly scoped subagent requests.
-
-For the `Cover letter web research agent`:
-
-- pass the company name, job title, and the specific rows or questions that require external research
-- ask for concise bullet findings only
-- require source URLs or named sources for each finding
-- ask it to separate confirmed facts from weaker marketing language
-- ask it to flag anything it could not verify
-
-For the `Cover letter candidate profile agent`:
-
-- pass the specific candidate questions you need answered from the source document
-- ask for direct evidence only from source/complete_skill_list*.md
-- require short citations such as section headings, keywords, or quoted snippets from the source document
-- ask it to say "not supported" when the source document does not justify a claim
-
-Do not ask subagents to write the final table. Their job is evidence gathering and retrieval only.
-
-## 3. Evidence Mapping
+## 2. Evidence Mapping
 
 For each row in the template, interpret Column C and decide which source is allowed:
 
@@ -111,14 +79,7 @@ For every row you plan to fill, also map:
 - why the planned Column B content is relevant to the JD
 - the exact JD phrase or sentence that supports that relevance
 
-When subagents were used, merge their findings here:
-
-- use the web-research subagent only for company-facing facts that truly require external research
-- use the candidate-profile subagent only for source-document facts about the applicant
-- resolve conflicts in favor of the strongest direct evidence
-- discard unsupported material even if it sounds persuasive
-
-## 4. Drafting
+## 3. Drafting
 
 Fill Column B and Column D row by row.
 
@@ -151,7 +112,7 @@ For open-ended persuasive sections such as motivation or interest in the role:
 - ground the answer in the JD and the source document
 - do not fabricate new experiences or factual claims
 
-## 5. Review and Output
+## 4. Review and Output
 
 Before writing the output file, verify:
 
@@ -196,7 +157,6 @@ Input:
 - a JD pasted in chat
 - the template from source/cover_letter_template.md
 - the source document from source/complete_skill_list*.md
-- optional evidence returned by subagents during the run
 
 Output:
 
