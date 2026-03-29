@@ -1,6 +1,6 @@
 # **Skills summary:**
 
-Technical Skills: Python, JavaScript, Pandas, NumPy, Matplotlib, Scikit-learn, PyTorch, PostgreSQL, Microsoft Office (including Excel VBA), Webdev, git, Django, REST api
+Technical Skills: Python, JavaScript, Pandas, NumPy, Matplotlib, Scikit-learn, PyTorch, PostgreSQL, Microsoft Office (including Excel VBA), Webdev, git, Django, REST api, Tableau
 
 Language skill: English Language Proficiency Summary
 
@@ -72,6 +72,12 @@ Key highlights
 - Built an enterprise inventory solution still used in production that automates product onboarding, tracking, alerts, and reporting.
 - Implemented features that improve accessibility and efficiency: fast search and dual-language support.
 - Strong practice in VBA macro development, UserForms, Excel tables/formulas, data validation, and writing maintainable automation for business users.
+
+Tableau
+
+- Possess a solid foundational understanding of Tableau for data visualization and dashboard development
+- Developed interactive dashboards using Tableau Desktop (Free Edition) to monitor employee attendance and inventory levels
+- Integrated Tableau with a PostgreSQL database to enable real-time data updates within the company’s ERP web panel, providing actionable insights for management
 
 # **Project experience**
 
@@ -359,27 +365,31 @@ Industry-collaborative university team project with a real-world client. The cli
 
 - Acted as the primary liaison between the client and the development team.
 - Initiated the first client meeting to establish communication and project direction.
-- Conducted meetings with the client to gather detailed project requirements.
-- Clarified business goals beyond the initial project brief.
+- Conducted meetings with the client to gather detailed project requirements and move beyond the initial project brief.
+- Clarified the type of platform the client wanted to see in practice, including expected service model, user needs, and business goals.
 - Ensured continuous alignment between client expectations and development progress.
 
 #### 2. Requirements Engineering
 
-- Translated business requirements from the client into technical project specifications.
-- Produced a structured project proposal based on the gathered requirements.
+- Translated business requirements from the client into technical project specifications and took a major role in authoring the project proposal.
+- Produced a structured project proposal based on the gathered requirements, defining the platform scope, core workflows, and key functional expectations before development began.
 - Presented the proposal to the client and obtained formal approval before development began.
+- Contributed to the functional design by defining how the product should behave from the user and business perspective, including the expected app flow, major user actions, and how users would navigate the mobile platform and complete key tasks such as booking.
+- Helped shape the user stories in the proposal by turning client needs into concrete behaviour requirements that the team could design and build against.
+- Reviewed the wireframes and mobile screen mock-ups created by a teammate in Figma, then proposed changes and refinements so the UI stayed aligned with the client requirements, user stories, and proposal.
 
 #### 3. Agile Project Management (Scrum)
 
 - Served as the Scrum Master for the development team.
 - Organized the development process into multiple development sprints.
 - Defined sprint goals and task allocation for each sprint.
-- Monitored team progress to ensure sprint objectives were achieved.
+- Monitored team progress closely to ensure sprint objectives were achieved and that implementation stayed consistent with the documented functional requirements.
 - Conducted Sprint Review meetings with the client at the end of each sprint to:
   - Demonstrate newly implemented features
   - Collect client feedback
   - Identify new requirements or improvements
 - Used feedback from each review to refine the roadmap for subsequent sprints.
+- Checked the completed sprint work against the functional requirements defined in the proposal to make sure the build stayed aligned with the intended product behaviour and agreed project scope.
 
 #### 4. Frontend Development
 
@@ -584,11 +594,47 @@ Experienced with extensive hands-on experience designing, building, and maintain
 
 • Strong practice in VBA macro development, UserForms, Excel tables/formulas, data validation, and writing maintainable automation for business users.
 
+• Enabled data-driven decision-making: the system provided real-time visibility into sales trends and inventory levels, directly supporting management's purchasing decisions and inventory optimization strategies. 
+
 # Education:
 
 ## University of New South Wales (UNSW) Sydney, Australia
 
 Master of Information Technology
+
+### Major Description
+
+Master of Information Technology with a focus on data science, machine learning, databases, and practical software delivery. The program combined computer science foundations with applied project work, strengthening my ability to turn real-world problems into data-driven solutions.
+
+### Course Content Description
+
+The most relevant subjects for data roles included Big Data Management, Database Systems and PostgreSQL implementation, Machine Learning and Data Mining, Recommender Systems, Neural Networks and Deep Learning, and Computer Vision. These subjects built my skills in data processing, relational database design, model evaluation, predictive analytics, and developing end-to-end data-driven applications.
+
+### Graduation Project / Capstone Overview
+
+For my capstone, I worked on a microtransit platform for a real client in Malaysia, serving as Project Owner, Frontend Developer, and Scrum Master. I gathered business requirements, translated them into technical specifications, supported product design and frontend delivery, and led sprint planning and review sessions. The project strengthened my stakeholder communication, agile delivery, and ability to build software aligned with business needs.
+
+### Other Key Highlights
+
+- High Distinction in Big Data Management and Engineering Project Management.
+- Distinction in Machine Learning and Data Mining, Computer Vision, and the Information Technology Project capstone.
+
+### 学位描述
+
+信息技术硕士，主修方向为数据科学、机器学习、数据库及软件开发实践。本专业将计算机科学基础与应用型项目实践相结合，提升了我将现实问题转化为数据驱动解决方案的能力。
+
+### 课程内容
+
+相关的课程包括：大数据管理、数据库系统及 PostgreSQL 数据库实现、机器学习与数据挖掘、推荐系统、神经网络与深度学习、计算机视觉。这些课程使我掌握了数据处理、关系型数据库设计、模型评估、预测分析以及开发端到端数据驱动应用的相关技能。
+
+### 毕业项目概述
+
+我的毕业项目是与一个马来西亚客户合作开发的微公交平台，我担任项目负责人、前端开发人员和 Scrum Master（敏捷大师）。我的工作包括收集业务需求、将需求转化为技术方案、参与产品设计与前端开发，并负责冲刺规划（Sprint planning)和评审(Sprint review）。该项目让我积累了利益相关者(Stakeholder)沟通、敏捷交付(Agile delivery)以及面向真实业务需求开发软件的经验。
+
+### 其他关键亮点
+
+- 大数据管理和工程项目管理课程获高优异成绩（High Distinction）
+- 机器学习与数据挖掘、计算机视觉和信息技术毕业项目获优异成绩（Distinction）
 
 ### Courses completed:
 

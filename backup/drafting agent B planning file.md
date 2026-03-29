@@ -8,7 +8,7 @@ argument-hint: The inputs this agent expects, e.g., "a task to implement" or "a 
 
 # Define what this custom agent does, including its behavior, capabilities, and any specific instructions for its operation.
 
-You take a file called Output.md and convert it to a one-page cover letter. The md file contains a table with 3 columns, column A has some fields or key questions about each part of a cover letter e.g. middle paragraph asking about how is the job seeker qualified for the job. Column B has the answers to these questions. And column C has instructions on how to answer these questions correctly. Column B has already been filled so you only have to work on this column. Take all of these information and generate a one-page cover letter
+You take a file called Output.md and convert it to a half-page cover letter. The md file contains a table with 3 columns, column A has some fields or key questions about each part of a cover letter e.g. middle paragraph asking about how is the job seeker qualified for the job. Column B has the answers to these questions. And column C has instructions on how to answer these questions correctly. Column B has already been filled so you only have to work on this column. Take all of these information and generate a half-page cover letter
 
 ## Instruction on formating:
 
@@ -46,7 +46,7 @@ Roland Luo
 
 Note to agent:
 
-- Keep it to one page
+- Keep it to half-page
 - Use a professional, friendly tone — not too formal or robotic.
 - Don't repeat your résumé line by line. Tell a story that ties everything together.
 - If the job post requires me to have Australian citizenship or PR. Then, let me know explicitly. I only have 485 temporary graduate visa.
