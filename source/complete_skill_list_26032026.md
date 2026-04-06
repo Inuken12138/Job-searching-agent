@@ -79,6 +79,67 @@ Tableau
 - Developed interactive dashboards using Tableau Desktop (Free Edition) to monitor employee attendance and inventory levels
 - Integrated Tableau with a PostgreSQL database to enable real-time data updates within the company’s ERP web panel, providing actionable insights for management
 
+# **个人优势 | Core Strengths**
+
+**商业与技术的独特结合** – 同时拥有商科学位（墨尔本大学商业学士）与IT硕士（新南威尔士大学），理解业务需求，能够用数据和技术驱动商业决策与流程优化。
+
+*Unique Commerce + Technology Combo* – Hold degrees in commerce (Bachelor of Commerce, University of Melbourne) and IT (Master of IT, UNSW). I understand business requirements and can leverage data and technology to drive strategic decisions and operational improvements.
+
+**数据驱动的问题解决能力** – 精通机器学习、数据分析、数据库设计，在经济计量学、成本管理、企业绩效等实务领域有了解，能将复杂数据转化为可行洞察。
+
+*Data-Driven Problem Solver* – Proficient in machine learning, data analytics, and database design with knowledge in econometrics, cost management, and business performance. Skilled at translating complex data into actionable insights.
+
+**全栈能力与端到端交付** – 从数据管道设计（Python/Pandas）、后端开发（Django、PostgreSQL）到前端实现（React、Next.js），独立主导完整的解决方案（库存管理系统、薪资自动化、电商平台、数据可视化）。
+
+*Full-Stack Delivery* – End-to-end capability from data pipeline design (Python/Pandas), backend development (Django, PostgreSQL), to frontend implementation (React, Next.js). Led complete solutions independently: inventory systems, payroll automation, e-commerce platforms, and data dashboards.
+
+**项目领导力** – 硕士毕业项目中担任项目负责人，负责整合客户需求、技术方案与团队交付；实际工作经历中因展示卓越的执行力获得客户和老师的信任。
+
+*Project Leadership & Stakeholder Engagement* – Served as project lead in capstone work, integrating client requirements, technical solutions, and team delivery. Earned client and management trust through excellence in real-world roles.
+
+**追求实际业务影响力** – 打造可创造价值的解决方案：库存软件自动化节省人工操作时间；薪资计算工具将半天流程缩短至 10 分钟；3D 厨房规划工具直接对接生产环节，优化制造工作流程。
+
+*Business Impact Focus* – Solutions deliver measurable value: inventory automation saves 10 hours/month in manual work; payroll tool cuts half-day process to 10 minutes; 3D kitchen planner integrates directly with production automation.
+
+# 个人作品
+
+## SongFei Construction & Decoration Co., Ltd – ERP & E-Commerce Platform (Dec 2024–Present)
+
+Independently designed and deployed a full-stack digital platform for a furniture and construction business, using Next.js, React.js, Django, and PostgreSQL. Acted as the technical owner translating business needs into scalable solutions.
+
+Core Modules Delivered:
+
+- Employee Management & Payroll Automation: Built a Python-based payroll system processing attendance data and salary calculations (base pay, overtime, deductions). Reduced the half-day manual process to 10 minutes.
+- E-Commerce Website: Developed an IKEA-style online store for selling furniture and construction materials, establishing a new digital sales channel.
+- 3D Kitchen Planner: Created an interactive design tool using Three.js and React Three Fiber, enabling customers to customize kitchen layouts and auto-generate CNC machine G-Code for production.
+
+Technical Highlights:
+- Designed PostgreSQL schemas with proper normalization and entity relationships
+- Built RESTful APIs with Django REST Framework and modular app architecture
+- Integrated frontend and backend via token-based authentication and CORS
+- Generated workforce reports and analytics using Python (Pandas, NumPy, Matplotlib, Seaborn)
+- Used AI-assisted development (GitHub Copilot, Cursor) for code generation and debugging
+- Impact: Automated critical operations, created a professional online presence, and directly linked customer designs to factory production workflows.
+
+## 松飞建筑装饰有限公司 – ERP 与电商平台
+
+独立设计并部署了一个面向家具和建筑业务公司的全栈平台,使用 Next.js、React.js、Django 和 PostgreSQL。担任技术负责人,将业务需求转化为可扩展的解决方案。
+
+核心模块:
+
+员工管理与薪酬自动化: 构建了基于 Python 的薪酬系统,处理考勤数据和薪资计算(基本工资、加班费、扣款)。将原先需要半天的手工流程缩短至 10 分钟。
+电商网站: 开发了 IKEA 风格的在线商店,销售家具和建筑材料,建立了新的数字销售渠道。
+3D 厨房设计工具: 使用 Three.js 和 React Three Fiber 创建交互式设计工具,使客户能够自定义厨房布局并自动生成 CNC 机器 G-Code 用于生产。
+
+技术亮点:
+- 设计了符合规范化的 PostgreSQL 数据库架构
+- 使用 Django REST Framework 构建 RESTful API 和模块化应用架构
+- 通过基于令牌的身份验证和 CORS 集成前后端
+- 使用 Python (Pandas、NumPy、Matplotlib、Seaborn) 生成员工报告和分析
+- 使用 AI 辅助开发工具 (GitHub Copilot、Cursor) 进行代码生成和调试
+- 商业影响: 在生产橱柜流程中，自动化了关键操作, 并直接将客户设计与工厂生产工作流程链接起来
+---
+
 # **Project experience**
 
 ## **SongFei Construction & Decoration Co., Ltd - IT Digitisation Consultant (2024/12 – Present)**
@@ -594,7 +655,7 @@ Experienced with extensive hands-on experience designing, building, and maintain
 
 • Strong practice in VBA macro development, UserForms, Excel tables/formulas, data validation, and writing maintainable automation for business users.
 
-• Enabled data-driven decision-making: the system provided real-time visibility into sales trends and inventory levels, directly supporting management's purchasing decisions and inventory optimization strategies. 
+• Enabled data-driven decision-making: the system provided real-time visibility into sales trends and inventory levels, directly supporting management's purchasing decisions and inventory optimization strategies.
 
 # Education:
 
@@ -750,6 +811,34 @@ This is a software project capstone course. Students work in teams of ideally fi
 
 Bachelor of Commerce
 
+### Major Description
+
+Bachelor of Commerce with a broad foundation across accounting, finance, economics, business law, management, and quantitative analysis, complemented by technical electives in computing and databases. The degree gave me a practical understanding of how organisations operate, how financial and economic information supports decision-making, and how data and technology can be applied in commercial settings.
+
+### Course Content Description
+
+My undergraduate coursework combined core commerce disciplines with quantitative and technical subjects. In accounting and finance, I studied financial reporting, cost management, corporate financial decision making, investments, derivative securities, and fintech, which strengthened my understanding of business performance, valuation, risk, and capital decisions. In economics and econometrics, I built skills in microeconomics, macroeconomics, statistical reasoning, regression, and forecasting. I also completed technical subjects including Foundations of Computing, Foundations of Algorithms, and Database Systems, which developed my programming, data modelling, SQL, and analytical problem-solving skills. Business law, corporate law, and taxation law added regulatory, and organisational context, giving me a well-rounded background for analyst, data, and business-facing roles.
+
+### Other Key Highlights
+
+- Weighted Average Mark: 77.278.
+- Achieved H1 results in eight subjects, including Foundations of Computing, Principles of Finance, Quantitative Methods 1, Cost Management, Econometrics 1, Corporate Financial Decision Making, Database Systems, and Derivative Securities.
+- Built a unique combination of commerce studies and technical capability through computing, algorithms, database systems, and fintech electives.
+
+### 学位描述
+
+商科学士，主修会计与金融双专业。系统性的学习会计学、金融学、经济学、商法、管理学及定量分析等核心课程，并辅修计算机与数据库相关的技术选修课。该专业让我切实掌握企业运营逻辑，如何通过财务与经济信息支撑决策制定，以及如何将数据和技术知识运用在商业场景中。
+
+### 课程内容
+
+本科课程融合了商科核心课程与定量及技术类课程。在会计与金融方向，学习了财务报告、成本管理、企业财务决策、投资学、金融衍生品及金融科技等内容，深化了我对企业经营绩效、估值、风险与资本决策的理解。在经济学与计量经济学方向，掌握了微观经济学、宏观经济学、统计推理、回归分析及预测分析能力。同时完成了编程基础、算法基础、数据库系统等技术课程，培养了编程、数据库建模、SQL 及分析问题解决能力。商法、公司法与税法课程则让我熟悉相关监管与企业运营规则，为从事分析师、数据类及商务类岗位打下了全面扎实的背景。
+
+### 其他关键亮点
+
+- 加权平均分：77.278
+- 8 门课程获得 H1 优异成绩，包括：计算机基础、金融学原理、定量方法 1、成本管理等
+- 通过编程、算法、数据库系统及金融科技等选修课程，铸就了我商科知识与技术能力兼备的复合背景。
+
 Courses completed:
 
 
@@ -781,6 +870,660 @@ Courses completed:
 | 2022 | FNCE30007 | Derivative Securities                    | 12.5   | 80         | H1    |
 |      |           | **Weighted Average Mark**                |        | **77.278** |       |
 
+The UniMelb course notes below are aligned to the archived handbook year shown in the table above.
+
+#### ACCT10001 ACCOUNTING REPORTS AND ANALYSIS 67 H3
+
+Overview
+
+This subject introduces students to the nature of accounting and its role in both financial markets and within organisations. Topics covered provide an overview of key financial and management accounting concepts and include: the constituent elements of financial statements; recognition, measurement and disclosure issues in the preparation of financial statements; accounting policy choices available to managers for key assets and incentives associated with policy choices; the analysis and interpretation of financial statement data; the use of accounting information within organisations to support managerial planning, control and decision making. The coverage and treatment of material in this course is specifically designed to meet the needs of undergraduate students from all disciplines. The focus is on the informed use of accounting information rather than the preparation of accounts.
+
+Intended learning outcomes
+
+* Explain the nature and purpose of accounting within financial markets and business organisations;
+* Identify and explain different business structures and their external financial reporting requirements;
+* Define and describe the major categories of assets, liabilities, equity, income, expenses and cash flow activities;
+* Discuss recognition, measurement and disclosure issues pertaining to various line items in financial statements
+* Analyse and interpret major financial statements and the accounting policy choices that influence their preparation;
+* Analyse cost and revenue information for internal planning and decision making;
+* Explain the concepts of corporate governance, ethics and ‘good governance’ and its influence on accounting;
+* Critically evaluate the strengths and weaknesses of accounting information relative to the purposes it serves.
+* Explain and apply the nature and purpose of budgeting and cost-volume-profit analysis as tools for internal decision making.
+
+Generic skills
+
+* High level of development: collaborative learning; problem solving; interpretation and analysis; critical thinking; evaluation of data and other information.
+  Moderate level of development: application of theory to practice; team work; oral communication; written communication; receptiveness to alternative ideas.
+* Some level of development: accessing data and other information from a range of sources; statistical reasoning; synthesis of data and other information.
+
+#### COMP10001 FOUNDATIONS OF COMPUTING 85 H1
+
+Overview
+
+AIMS
+
+Solving problems in areas such as business, biology, physics, chemistry, engineering, humanities, and social sciences often requires manipulating, analysing, and visualising data through computer programming. This subject teaches students with little or no background in computer programming how to design and write basic programs using a high-level procedural programming language, and to solve simple problems using these skills.
+
+This subject is the first subject in the Computing & Software Systems and the Informatics majors, and introduces students to programming and the basics of algorithmic thinking.
+
+INDICATIVE CONTENT
+
+Fundamental programming constructs; fundamental data structures; abstraction; basic program structures; algorithmic problem solving, testing and debugging; introduction to the Web, multimedia and visualisation.
+
+Examples of projects that students complete are:
+
+- A text analytics “library” consisting of a series of independent functions to calculate/extract different things given a document/document collection as input
+- A video recommender system, broken down into a series of functions
+- An AI player for an online card game, designed such that students play off against each other (and against the class) at the end of semester.
+
+Intended learning outcomes
+On Completion of this subject,the student is expected to:
+
+1. Use the fundamental programming constructs (sequence, alternation, selection)
+2. Use the fundamental data structures (arrays, records, lists, associative arrays)
+3. Use abstraction constructs such as functions
+4. Understand and employ some basic program structures
+5. Understand and employ some basic algorithmic problem-solving techniques
+6. Read, write, and debug simple, small programs
+   Generic skills
+   On completion of this subject, students should have developed the following generic skills:
+
+- An ability to apply knowledge of basic science and engineering fundamentals
+- An ability to undertake problem identification, formulation and solution
+- The capacity to solve problems, including the collection and evaluation of information
+- The capacity for critical and independent thought and reflection
+- An expectation of the need to undertake lifelong learning, and the capacity to do so.
+
+#### ECON10004 INTRODUCTORY MICROECONOMICS 68 H3
+
+Archived handbook year: 2019. Handbook: https://handbook.unimelb.edu.au/2019/subjects/econ10004
+
+Overview
+
+This subject is an introduction to microeconomic theory and policy. Topics include the theory of perfectly competitive markets, welfare analysis and the role of government in the economy, theory of the firm (production and costs), game theory, and effects of market structure on resource allocation.
+
+Intended learning outcomes
+
+- Understand the operation of the economy, and to guide decision-making by individuals, businesses and government in solving the key economic problem of meeting unlimited wants with limited resources
+- Explain the concepts of market demand, supply and equilibrium; and apply the market model to explain the determination of prices, quantities and wellbeing
+- Explain how market and social welfare outcomes are affected by changes in demand and supply, and by changes of government policy
+- Explain in what circumstances and in what forms intervention by government in the operation of the economy can improve efficiency and social welfare
+- Identify “strategic situations” in economic activity, and be able to analyse and predict outcomes of strategic situations
+- Identify the main characteristics of different market structures, and describe and evaluate the nature of decisions and outcomes in the different market structures
+- Explain the nature, role and limitations of theory and models in economic analysis
+- Proceed to the study of other economics and commerce subjects that have a knowledge of introductory microeconomics as a prerequisite
+
+Generic skills
+
+- **High level of development:** written communication; problem solving; application of theory to practice; interpretation and analysis; critical thinking; synthesis of data and other information.
+- **Moderate level of development:** oral communication; collaborative learning; team work; evaluation of data and other information; receptiveness to alternative ideas.
+- **Some level of development:** statistical reasoning; use of computer software; accessing data and other information from a range of sources.
+
+#### FNCE10002 PRINCIPLES OF FINANCE 83 H1
+
+Archived handbook year: 2019. Handbook: https://handbook.unimelb.edu.au/2019/subjects/fnce10002
+
+Overview
+
+This subject introduces students to the key concepts of finance. Topics include: time-value-of-money, risk and return, present value, capital budgeting, diversification, asset allocation, capital asset pricing model, leverage, risk management and the types and sources of financing. This subject is the first in the sequence of finance subjects offered within the faculty and has a coverage and treatment of material which is suitable not only for students wishing to pursue further studies in finance but also for students from other disciplines who are interested in a single course in finance.
+
+Intended learning outcomes
+On successful completion of this subject students should be able to:
+
+- Use financial mathematics to solve basic financial problems
+- Apply alternative capital budgeting techniques for project evaluation purposes
+- Explain the role of risk and return in the asset allocation decision and the pricing of risky assets
+- Distinguish between the different sources of financing including short term debt, long term debt and equity
+- Discuss the issues and choices involved in a firm’s capital structure decision
+- Discuss the issues and choices involved in a firm’s distribution decision
+- Explain how options can be used to manage basic financial risks
+
+Generic skills
+On successful completion of this subject, students should have improved the following generic skills:
+
+- High level of development: problem solving; interpretation and analysis; critical thinking.
+- Moderate level of development: oral communication; written communication; collaborative learning; statistical reasoning; application of theory to practice; synthesis of data and other information; evaluation of data and other information; accessing data and other information from a range of sources.
+- Some level of development: team work; use of computer software.
+
+#### ACCT10002 INTRODUCTORY FINANCIAL ACCOUNTING 78 H2A
+
+Overview
+
+This subject focuses on the nature of accounting from the perspective of a preparer of financial reports. The method of recording and reporting transactions in an accounting system to ultimately provide the foundation for judgements and decisions in preparation of financial reports will be covered. The importance of accounting within the Australian external reporting environment is explained as well as an introduction to the Conceptual Framework for accounting that provides a theoretical underpinning of accounting standards and reporting.
+
+Intended learning outcomes
+
+- Identify the principal regulatory authorities that influence the framework for external financial reporting in Australia and explain their roles and functions in this process.
+- Describe the nature and objectives of General Purpose Financial Reporting
+- Explain the key components of the Conceptual Framework for accounting as it applies to the preparation of general purpose financial statements.
+- Record accounting transactions and prepare the Balance Sheet and the Income Statement.
+- Explain the main issues to be considered in relation to reporting of key transactions and balances reported in the Balance Sheet and Income Statement.
+- Describe the nature of company transactions and account for various capital transactions and profit distribution.
+- Construct and analyse a Cash Flow Statement.
+
+Generic skills
+
+- High level of development:** problem solving; use of computer software.
+- Moderate level of development:** written communication; collaborative learning; team work; application of theory to practice; interpretation and analysis; critical thinking; synthesis of data and other information; evaluation of data and other information; accessing data and other information from a range of sources; receptiveness to alternative ideas.
+- Some level of development:** oral communication; statistical reasoning.
+
+#### COMP10002 FOUNDATIONS OF ALGORITHMS 65 H3
+
+Archived handbook year: 2019. Handbook: https://handbook.unimelb.edu.au/2019/subjects/comp10002
+
+Overview
+
+AIMS
+
+In many projects, it is important for programmers to have fine control over low-level details of program execution, and to be able to assess the cost of a design decision on likely overall program performance. This subject introduces students to a system programming language that gives programmers this kind of control, explores a range of standard data structures and algorithmic techniques, and shows how to apply them to frequently encountered problems.
+
+INDICATIVE CONTENT
+
+- Introduction to computer organization
+- Machine level representation of data
+- Programming in a system programming language
+- Pointers and dynamic memory allocation
+- Program semantics and arguments about correctness
+- Induction and recursion
+- Basic searching algorithms (linear and binary)
+- Basic sorting algorithms (such as selection sort, insertion sort, quicksort)
+- Basic data structures (binary search trees and hash tables)
+- Asymptotic complexity
+- Standard software development tools such as debuggers.
+
+Intended learning outcomes
+INTENDED LEARNING OUTCOMES (ILO)
+
+On completion of this subject the student is expected to:
+
+- Read, write and debug typical small-scale programs in a system programming language such as C
+- Discuss, analyse, implement, and apply standard data structures such as linked lists, binary search trees, and hash tables
+- Discuss, analyse, and apply a range of sorting and searching algorithms
+- Present logical arguments for the correctness of a given algorithm
+- Choose between different algorithms for simple problems by analysing their complexity
+- Use a command line interface and standard development tools for programming
+
+Generic skills
+On completion of this subject students should have developed the following skills:
+
+- Ability to undertake problem identification, formulation and solution
+- Capacity for independent critical thought, rational inquiry and self-directed learning
+- Profound respect for truth and intellectual integrity, and for the ethics of scholarship
+- An ability to apply knowledge of basic science and engineering fundamentals.
+
+#### ECON10003 INTRODUCTORY MACROECONOMICS 71 H2B
+
+Archived handbook year: 2019. Handbook: https://handbook.unimelb.edu.au/2019/subjects/econ10003
+
+Overview
+
+An introduction to macroeconomic theory and policy. Topics will include economic aggregates such as production and employment, the general level of prices and inflation, the exchange rate, interest rates, monetary and fiscal policies, the balance of payments and economic growth. Analysis is particularly directed to current macroeconomic problems and policy issues.
+
+Intended learning outcomes
+
+Explain the importance of the circular flow of income to macroeconomics.
+Interpret the meaning and measurement of macroeconomic aggregates such as Gross Domestic Product.
+Explain and use the Keynesian model of national income determination.
+Describe the roles of money and the financial system in the macroeconomy.
+Critically analyse macroeconomic policies appropriate to the achievement of the macroeconomic objectives.
+Explain and apply the aggregate demand/aggregate supply model.
+Explain the key features of the neoclassical model of growth.
+Analyse the factors influencing the balance of payments and the exchange rate.
+Generic skills
+
+• **High level of development:** written communication; collaborative learning; critical thinking; synthesis of data and other information; application of theory to practice.
+• **Moderate level of development:** oral communication; problem solving; team work; interpretation and analysis; evaluation of data and other information; accessing data and other information from a range of sources; receptiveness to alternative ideas.
+• **Some level of development:** statistical reasoning.
+
+#### ECON10005 QUANTITATIVE METHODS 1 80 H1
+
+Archived handbook year: 2019. Handbook: https://handbook.unimelb.edu.au/2019/subjects/econ10005
+
+Overview
+Availability
+Semester 1 - On Campus
+Semester 2 - On Campus
+Fees	Look up fees
+This subject covers the core concepts which underpin quantitative decision analysis in the various specialisations within the faculty. It provides a foundation for all second-year quantitative subjects in the commerce degree. The topics covered are drawn from financial mathematics; measures of location and dispersion; probability, random variables and expected values; sampling design; estimation and testing using the normal and t-distribution; and simple regression and correlation. Excel is used to illustrate applications in accounting, economics, finance, management and marketing.
+
+Intended learning outcomes
+
+Graph economic data using methods that facilitate analysis.
+Explain concepts relevant for summarising and interpreting data.
+Explain how the concepts of random variables and probability distributions are useful for drawing inferences.
+Explain the concepts of population, samples and sampling distributions.
+Estimate unknown population quantities and test hypotheses about them.
+Conduct simple regression analysis to model the relationship between variables and draw inferences about relationships.
+Apply common analytical techniques relevant for financial decision making.
+Generic skills
+
+• **High level of development:** problem solving; statistical reasoning; application of theory to practice; interpretation and analysis; synthesis of data and other information; evaluation of data and other information; use of computer software; accessing data and other information from a range of sources.
+• **Moderate level of development:** oral communication; written communication; critical thinking; receptiveness to alternative ideas.
+• **Some level of development:** collaborative learning; team work.
+
+#### ACCT20001 COST MANAGEMENT 83 H1
+
+Archived handbook year: 2020. Handbook: https://handbook.unimelb.edu.au/2020/subjects/acct20001
+
+Please refer to the LMS for up-to-date subject information, including assessment and participation requirements, for subjects being offered in 2020.
+
+Overview
+
+This subject explores the design and implementation of cost management systems in a variety of organisational contexts. As well as emphasising technical expertise in the development of these systems, this subject also considers the use of cost system information in management decision making, specifically for the purposes of effective management of organisational resources and the creation of customer and shareholder value.
+
+Intended learning outcomes
+On successful completion of this subject, students should be able to:
+
+Describe a range of cost behaviour patterns and estimate costs using a range of sophisticated cost estimation techniques
+Calculate product and service costs using a variety of costing systems and cost allocation techniques
+Describe the link between resource flows and activities
+Discuss the implications of resource flow patterns for the design of costing systems in a range of organisational contexts
+Explain techniques for the management of costs to facilitate the effective use of organisational resources
+Analyse and evaluate cost information for the purposes of making a variety of value-based decisions
+Generic skills
+
+• **High level of development:** problem solving; interpretation and analysis; synthesis of data and other information; evaluation of data and other information.
+• **Moderate level of development:** written communication; oral communication; team work; collaborative learning; application of theory to practice; critical thinking; receptiveness to alternative ideas.
+• **Some level of development:** use of computer software; accessing data and other information from a range of sources; statistical reasoning.
+
+#### BLAW10001 PRINCIPLES OF BUSINESS LAW 79 H2A
+
+Archived handbook year: 2020. Handbook: https://handbook.unimelb.edu.au/2020/subjects/blaw10001
+
+Please refer to the LMS for up-to-date subject information, including assessment and participation requirements, for subjects being offered in 2020.
+
+Overview
+
+This subject will be delivered online in 2020 over the scheduled dates.
+
+This subject provides an introduction to law from a business perspective. This subject is available as a level 1 breadth subject to students in all faculties.
+
+Topics include:
+
+The nature and purpose of law;
+how law develops and changes;
+how new law is made;
+how to read and understand legislation and case law;
+how legally binding agreements (contracts) are created and enforced;
+remedies for breach of contract;
+consumer protection law;
+property law;
+liability in tort law for negligence; and
+the law of agency.
+Note 1: Principles of Business Law is a prerequisite for Corporate Law and Taxation Law.
+
+Note 2: This subject is recommended to students in any faculty and in any year of study who would like to study an introductory law subject.
+
+Intended learning outcomes
+The objectives of this course are to:
+
+describe the sources of Australian law;
+find, interpret and apply case-law and legislation;
+explain and apply the principles of contract law in business situations;
+explain and apply the basic principles of liability in tort law;
+explain and apply statutory consumer protection legislation;
+explain and apply the law of agency; and
+understand the basic principles of property law.
+Generic skills
+On completion of the subject, students should have developed the following generic skills:
+
+The capacity for close reading and analysis of a range of legal source materials;
+the capacity to solve problems, including through the collection and evaluation of information; and
+the capacity to effectively plan and manage time;
+In addition, on completion of the subject, students should have developed the following skills specific to the discipline of law:
+
+• The ability to find, interpret and apply legal source materials; and
+• the ability to find and apply legal principles and rules to resolve specific issues.
+
+#### ECOM20001 ECONOMETRICS 1 81 H1
+
+Archived handbook year: 2020. Handbook: https://handbook.unimelb.edu.au/2020/subjects/ecom20001
+
+Please refer to the LMS for up-to-date subject information, including assessment and participation requirements, for subjects being offered in 2020.
+
+Overview
+
+This subject provides an introduction to econometrics, which involves using data and statistical methods to estimate economic relationships, test economic theory, and predict the impact of policy. Topics covered include probability and statistics, single linear regression, multiple linear regression, non-linear regression, model internal and external validity, field and natural experiments, and time series models. Econometric methodology and application will be motivated and illustrated through applications to economics, accounting, finance, marketing, and management.
+
+Intended learning outcomes
+On successful completion of this subject, students should be able to:
+
+Apply least-squares method of estimation and inference to the context of single and multiple linear regression.
+Use statistical program to estimate econometric models, test hypotheses, and undertake forecasting exercises.
+Understand and explain various problems that arise in the development and interpretation of econometric models including multicollinearity, specification error, heteroskedasticity, autocorrelation, internal validity and external validity.
+Generic skills
+
+• **High level of development:** written communication; collaborative learning; problem solving; team work; statistical reasoning; application of theory to practice; interpretation and analysis; critical thinking; synthesis of data and other information; use of computer software.
+• **Moderate level of development:** oral communication; evaluation of data and other information; accessing data and other information from a range of sources; receptiveness to alternative ideas.
+
+#### FNCE20005 CORPORATE FINANCIAL DECISION MAKING 84 H1
+
+Archived handbook year: 2020. Handbook: https://handbook.unimelb.edu.au/2020/subjects/fnce20005
+
+Please refer to the LMS for up-to-date subject information, including assessment and participation requirements, for subjects being offered in 2020.
+
+Overview
+
+This subject examines capital budgeting techniques, the capital structure decision, the distribution decision and corporate risk management at a more advanced level to that covered in FNCE10002 Principles of Finance. Topics include: the Modigliani-Miller theorems, the impact of taxes under a classical tax system, the impact of taxes under an imputation tax system, corporate acquisitions and restructuring, hybrid securities as a source of finance, techniques in raising capital.
+
+Intended learning outcomes
+On successful completion of this subject students should be able to:
+
+Explain the different techniques used by firms to raise equity and debt capital.
+Apply alternative capital budgeting techniques in the presence of taxes and differing project lives.
+Discuss the impact of market imperfections on a firm’s capital structure decision.
+Discuss the impact of market imperfections on a firm’s distribution decision.
+Evaluate the advantages and disadvantages of hybrid securities as a source of finance.
+Assess the economic consequences of corporate acquisition and restructuring activities.
+Explain the option-theoretic interpretation of debt and equity.
+Generic skills
+On successful completion of this subject, students should have improved the following generic skills:
+
+High level of development: oral communication; written communication; problem solving; interpretation and analysis; evaluation of data and other information.
+Moderate level of development: collaborative learning; statistical reasoning; application of theory to practice; synthesis of data and other information; accessing data and other information from a range of sources.
+Some level of development: critical thinking; use of computer software.
+
+#### ACCT20007 ACCOUNTING INFORMATION: RISKS & CONTROLS 60 P^
+
+Archived handbook year: 2020. Handbook: https://handbook.unimelb.edu.au/2020/subjects/acct20007
+
+Please refer to the LMS for up-to-date subject information, including assessment and participation requirements, for subjects being offered in 2020.
+
+Overview
+
+This subject is an introduction to the key business processes that generate accounting data and information. It entails the study of the information systems that support business processes, and the risks and controls that effect the reliability of accounting transaction data and the quality of information contained in accounting reports.
+
+Intended learning outcomes
+On successful completion of this subject a student should be able to:
+
+Describe and explain what is meant by Information quality in regards to accounting information.
+Explain the role of information systems and technology in achieving reliable accounting transaction data and reports
+Interpret and analyse business process documentation
+Explain the role of internal controls in managing risks
+Recommend internal control plans to cover key business process risks and to achieve key business process operation and information control goals
+Evaluate, analyse and interpret the efficacy of business processes and reliability of accounting data to ensure the quality of information in accounting reports.
+Generic skills
+Collaborative learning; problem solving; team work; interpretation and analysis; critical thinking; evaluation of data and other information; use of computer software; written communication; application of theory to practice.
+Oral communication; written communication; synthesis of data and other information; accessing data and other information from a range of sources; receptiveness to alternative ideas
+
+#### MGMT20001 ORGANISATIONAL BEHAVIOUR 66 H3^
+
+Archived handbook year: 2020. Handbook: https://handbook.unimelb.edu.au/2020/subjects/mgmt20001
+
+Please refer to the LMS for up-to-date subject information, including assessment and participation requirements, for subjects being offered in 2020.
+
+Overview
+
+This subject will provide an introduction to basic individual and group processes, as they affect people in organisations. Major theories and models in key areas of organisational behaviour will be examined; including group dynamics, motivation, stress, communication, conflict, power, strategy, structure and change management. Tutorials will emphasise the application of theories, through the use of exercises and case studies.
+
+Intended learning outcomes
+Describe the basic theories &amp; models within organisational behaviour.
+Apply major theories and models from the field of organisational behaviour to analyse organisational problems and generate realistic solutions &amp; recommendations, as presented in case studies.
+Summarise and evaluate recent academic research and findings on a specified topic in organisational behaviour.
+Describe practical application of theories and concepts in team work assignment.
+Identify and critique management approaches in the field and collaboratively develop alternative models of practice.
+Solve problems of management practice.
+Analyse team dynamics.
+Generic skills
+In this subject you will have the opportunity to develop important generic skills:
+
+Problem solving skills and critical thinking skills will be fostered in the tutorial/workshop program and more directly within the team assignment where students have to apply theoretical material to a practical case study.
+Collaborative learning and team-work skills will be developed by working in a permanent, semester-long, student team for the case study. Team-work skills will also be fostered through exercises, role plays, and simulations that are incorporated into the tutorial program.
+Verbal and written communication skills will be developed via the individual and team assignments and through the experience of working in a team for the whole semester. The interactive nature of the tutorial/workshop program will also, indirectly, help to improve communication skills.
+
+#### ACCT20002 INTERMEDIATE FINANCIAL ACCOUNTING 58 P^
+
+Archived handbook year: 2020. Handbook: https://handbook.unimelb.edu.au/2020/subjects/acct20002
+
+Please refer to the LMS for up-to-date subject information, including assessment and participation requirements, for subjects being offered in 2020.
+
+Overview
+
+This subject focuses on more advanced external financial reporting obligations applicable to entities within the framework of the Australian reporting environment. In particular, it examines key technical Accounting Standards integral to the preparation of general purpose financial statements by reporting entities. It also considers the theories that help explain why financial accounting exists as well as what motivates and affects the judgements of managers when making financial accounting reporting decisions. Finally, it critically reviews important contemporary accounting issues affecting the business community under consideration by accounting standard setters.
+
+Intended learning outcomes
+
+Identify and explain the theories that explain why financial accounting exists and the accounting choices made by managers
+Record and disclose transactions and events applying the provisions of key Accounting Standards
+Critically evaluate how well these standards appropriately incorporate the principles as outlined in the Conceptual Framework
+Identify and explain contemporary financial accounting reporting issues affecting the business community and being considered by standard setters
+Identify and explain financial reporting disclosure and presentation issues as part of an annual report
+Explain the implications for financial reporting arising from alternative accounting policy choice decisions faced by management
+Generic skills
+
+• **High level of development:** application of theory to practice; evaluation of data and other information.
+• **Moderate level of development:** critical thinking; written communication; problem solving; interpretation and analysis; receptiveness to alternative ideas; synthesis of data and other information.
+• **Some level of development:** oral communication; collaborative learning; team work.
+
+#### INFO20003 DATABASE SYSTEMS 83 H1
+
+Archived handbook year: 2020. Handbook: https://handbook.unimelb.edu.au/2020/subjects/info20003
+
+Please refer to the LMS for up-to-date subject information, including assessment and participation requirements, for subjects being offered in 2020.
+
+Overview
+
+AIMS
+
+Contemporary online services such as social networking and multimedia-sharing sites, massive multiplayer online games and commerce services have database management systems at their back-end. In this subject, students will obtain a deep understanding of the concepts behind database management systems. In particular, the students will become familiar with the database system architecture, and will exercise the concepts such as query processing and optimisation, database tuning and transactions, which are the foundation of any modern data processing application. This subject is core within the Bachelor of Science for the Major of Computing and Software Systems and the Major of Informatics. Students completing the Diploma of Informatics are also required to undertake this subject.
+
+INDICATIVE CONTENT
+
+This subject serves as an introduction to data modelling and databases from a technical and data management perspective. The subject will include Entity Relationship modelling (from conceptual design to physical modelling), normalisation, de-normalisation, relational model and relational algebra, SQL, query processing and query optimisation, transactions, storage organisation, database administration, data warehousing and big data analytics. Other topics in data management and DBMS technology with an overview of modern NoSQL systems may also be included.
+
+Intended learning outcomes
+On completion of this subject the student is expected to:
+
+Demonstrate proficiency in solving practical data-modelling tasks
+Use SQL to interact with a relational database
+Understand internal mechanisms and policies behind database systems
+Understand the need for database transactions, and use them
+Profile and tune business analytics queries, and administer database systems. Through the combination of lectures, workshops and assignments, students will gain considerable hands-on experience in: i) modelling a number of diverse informational situations, useful to both organisations and individuals, ii) writing efficient SQL queries to analyse data
+Generic skills
+On completion of this subject students, should have developed the following generic skills:
+
+The ability to analyse and solve problems involving large amounts of real-world data
+The ability to synthesise information and communicate results effectively
+The capacity for critical and independent thought and reflection
+The ability to apply knowledge of basic science and engineering fundamentals
+The ability to undertake problem identification, formulation and solution
+
+#### ACCT30001 FINANCIAL ACCOUNTING THEORY 79 H2A
+
+Archived handbook year: 2021. Handbook: https://handbook.unimelb.edu.au/2021/subjects/acct30001
+
+Overview
+
+The subject is a financial statement theory and analysis subject that is designed to teach the underlying concepts and applied contemporary techniques that enable the use of financial reports for performance analysis and valuation. We also consider the use of financial reports for contracting with executives and lenders and if there is a need for regulation.
+
+The objective of this course is to equip students with tools and techniques to be able to (a) understand and assess the quality of financial reports and identify significant accounting issues (b) use financial reports to assess the level and drivers of firm performance and (c) value companies. Students will learn that the quality of information provided in financial reports can vary significantly and can have a significant impact on how it should be used for analysis and valuation. The applied concepts taught will be useful to students in practice both as preparers and users.
+
+Intended learning outcomes
+On completion of this subject, students should be able to:
+
+Explain the impact of financial reports on economic activity
+Analyse the principles and incentives associated with the recognition and measurement of a firm’s economic activity in financial reports and the biases and random errors that occur
+Discuss the tools and frameworks necessary to understand, analyse and evaluate financial statements
+Evaluate the concepts and approaches associated with the use of financial reports for valuation
+Synthesise the range of emerging issues in financial accounting
+Generic skills
+
+• **High level of development:** oral communication; written communication; problem solving; application of theory to practice; interpretation and analysis; critical thinking.
+• **Moderate level of development:** statistical reasoning; receptiveness to alternative ideas.
+• **Some level of development:** collaborative learning; team work; use of computer software; synthesis of data and other information.
+
+#### ACCT30002 ENTERPRISE PERFORMANCE MANAGEMENT 75 H2A
+
+Archived handbook year: 2021. Handbook: https://handbook.unimelb.edu.au/2021/subjects/acct30002
+
+Overview
+
+This subject focuses on a range of strategic performance management control system issues including performance measurement, incentives, reward systems and risk; profit analysis; planning and budgeting; and, strategic investments. These issues are explored in a number of different organisational settings and relationships.
+
+Intended learning outcomes
+On completion of this subject, students should be able to:
+
+Explain the role performance measurement and control systems play in planning and controlling organisational activities;
+Identify the elements that constitute effective performance measurement and control systems;
+Describe the behavioural implications of different types of performance measurement and control systems in different organisational contexts;
+Explain the notion of ‘responsibility accounting’;
+Analyse the link between organisational structure, and planning and control systems;
+Analyse and review performance within an organisation;
+Identify potential problems with the use of traditional performance measurement systems;
+Describe the current performance measurement trends in, and their suitability to, organisations;
+Explain how rewards are used to influence behaviour.
+Generic skills
+
+• **High level of development:** written communication; problem solving; application of theory to practice; interpretation and analysis; critical thinking; synthesis of data and other information; evaluation of data and other information; accessing data and other information from a range of sources; receptiveness to alternative ideas.
+• **Moderate level of development:** oral communication; collaborative learning; team work.
+• **Some level of development:** use of computer software.
+
+#### BLAW20001 CORPORATE LAW 71 H2B
+
+Archived handbook year: 2021. Handbook: https://handbook.unimelb.edu.au/2021/subjects/blaw20001
+
+Overview
+
+This subject critically examines the body of rules and regulations that govern the formation, management, financing and winding up of Australian corporations. Specific topics include: the incorporation process and its consequences; internal regulation on company management and their effects upon outsiders; share capital; disclosure obligations; the duties and liabilities of directors and other officers; and the rights and remedies of those affected by companies and their controllers.
+
+Intended learning outcomes
+A student who has successfully completed the subject should have:
+
+Acquired a general knowledge of the regulation of companies and the legal environment in which they operate;
+obtained an overview of the Corporations Act 2001 (Cth) and the main case law relevant to its operation;
+acquired specialised knowledge in key areas of corporate law of relevance to the business community; and
+understood the roles, functions and duties of the board of directors, management and shareholders, and their relationships with other corporate stakeholders.
+
+#### FNCE30001 INVESTMENTS 79 H2A
+
+Archived handbook year: 2021. Handbook: https://handbook.unimelb.edu.au/2021/subjects/fnce30001
+
+Overview
+
+This subject is an introduction to investment analysis, with emphasis on equity securities and fixed interest securities. The topics covered focus on issues fundamental to financial managers, money managers, risk managers, financial advisers and regulators. These topics include: fundamental ideas in asset pricing; modern portfolio theory and its applications; equilibrium theories of asset pricing; portfolio performance evaluation; empirical evidence on security returns; key issues in pricing fixed interest securities; the term structure of interest rates; techniques in fixed interest portfolio management and the pricing of floating rate notes and interest rate swaps.
+
+Intended learning outcomes
+On successful completion of this subject students should be able to:
+
+Discuss core concepts in finance, including risk, return, risk premium and risk aversion;
+Analyse the portfolio selection problem, with emphasis on the mean variance framework;
+Develop techniques to evaluate the performance of money managers;
+Critically evaluate theories of asset pricing and their applications in the pricing of securities;
+Analyse issues in the pricing of fixed interest securities and the management of portfolios;
+Critically evaluate theories of the term structure of interest rates;
+
+Generic skills
+
+• **High level of development:** problem solving; application of theory to practice; interpretation and analysis; critical thinking
+• **Moderate level of development:** written communication; statistical reasoning; synthesis and evaluation of data and other information
+• **Some level of development:** oral communication; collaborative learning; team work
+
+#### ACCT30004 AUDITING AND ASSURANCE SERVICES 73 H2B^
+
+Archived handbook year: 2021. Handbook: https://handbook.unimelb.edu.au/2021/subjects/acct30004
+
+Overview
+
+Topics include the rationale for auditing; auditing standards; audit objectives, concepts and procedures; audit techniques including statistical sampling and the audit of computer-based accounting systems; audit reports; the legal liability of auditors; the professional and ethical responsibilities of auditors; the statutory responsibilities and rights of auditors; contemporary auditing problems; and consideration of how research informs these auditing topics.
+
+Intended learning outcomes
+Critically evaluate the theories regarding demand for and supply of audit and assurance services of both a financial and non-financial nature;
+Describe the environment in which audit and assurance providers operate, including ethical, and professional aspects;
+Assess client risks pertinent to the audit and assurance process;
+Apply the concepts and processes used by audit and assurance service providers to gather evidence and formulate judgments with respect to the underlying information;
+Describe the reports provided by audit and assurance providers, in their various forms, to various stakeholders;
+Synthesise current business and auditing issues as they relate to auditing and assurance services;
+Apply contemporary themes within the business media regarding auditing and assurance to current auditing and assurance practice
+
+Generic skills
+
+• **High level of development:** collaborative learning; problem solving; team work; application of theory to practice; interpretation and analysis; critical thinking
+• **Moderate level of development:** written communication; synthesis of data and other information; evaluation of data and other information; accessing data and other information from a range of sources; receptiveness to alternative ideas
+
+#### BLAW30002 TAXATION LAW I 65 H3^
+
+Archived handbook year: 2021. Handbook: https://handbook.unimelb.edu.au/2021/subjects/blaw30002
+
+Overview
+
+This subject provides students with an overview of the operation of the Australian taxation system with an emphasis on solving common practical tax questions. The subject examines income tax, capital gains tax, fringe benefits tax and goods and services tax law for different types of taxpayers.
+
+This subject does not assume and does not require an accounting or commercial background. Mathematical skills are also not required.
+
+Completion of BLAW30002 Tax Law I and BLAW30003 Tax Law II satisfies the requirements for a Tax Practitioner Board ‘approved course in Australian taxation law’ under the ‘mix and match’ approach. Refer to www.tpb.gov.au for further information
+
+Intended learning outcomes
+On completion of this subject, students should be able to:
+
+understand the basic principles of taxation law in Australia
+have the skills to develop future learning and understanding of taxation law issues.
+Generic skills
+On completion of the subject, students should have developed the following generic skills:
+
+Attitudes towards knowledge that include valuing truth, openness to new ideas and ethics associated with knowledge creation and usage;
+the capacity for close reading and analysis of a range of sources;
+the capacity for critical and independent thought and reflection;
+the capacity to solve problems, including through the collection and evaluation of information;
+the capacity to communicate, both orally and in writing;
+the capacity to plan and manage time;
+the capacity to participate as a member of a team; and
+intercultural sensitivity and understanding.
+In addition, on completion of the subject, students should have developed the following skills specific to the discipline of law:
+
+• Capacity to solve tax problems by collecting and evaluating information from a variety of sources;
+• communicate solutions to tax problems both orally and in writing; and
+• ability to work in groups to solve legal tax problems and critically analyse legal materials in a classroom setting.
+
+#### FNCE30012 FOUNDATIONS OF FINTECH 77 H2A^
+
+Archived handbook year: 2021. Handbook: https://handbook.unimelb.edu.au/2021/subjects/fnce30012
+
+Overview
+
+Technology has been transforming the financial industry, with the potential to disrupt traditional industry structure and practice. The subject is organised around a number of real‐world issues, in order to introduce fundamental underlying economic (including money, moral hazard, property rights and bank runs) and psychological (including engagement, trust and privacy) problems, and how technology could provide transformative solutions to those problems (e.g., big data, distributed ledgers, artificial intelligence, machine learning and natural language processing). Cases will illustrate the core concepts. The emphasis is on foundations, so students will be able to apply the learned concepts in novel situations.
+
+Intended learning outcomes
+Identify fundamental economic and psychological issues behind real‐world problems in the financial sphere
+Determine how major advances in artificial intelligence and machine learning are applicable to finance problems
+Demonstrate basic knowledge of techniques in artificial intelligence and machine learning
+Demonstrate knowledge of major trends in Fintech
+Distinguish disruption from mere computerisation
+Acquire skills to solve practical financial problems
+Learn to think outside the box
+Critically evaluate new ideas and their implementation
+Recognise opportunities to innovate
+
+Generic skills
+
+• **High level of development:** problem solving; critical thinking; interpretation and analysis
+• **Moderate level of development:** statistical analysis; algorithm development
+• **Some level of development:** programming
+
+#### FNCE30007 DERIVATIVE SECURITIES 80 H1
+
+Archived handbook year: 2022. Handbook: https://handbook.unimelb.edu.au/2022/subjects/fnce30007
+
+Overview
+
+This subject focuses on the application and valuation of derivative securities, such as forwards, futures, swaps and options. The emphasis will be on arbitrage relations, valuation, and hedging with derivatives. The topics covered include; Forwards and futures: the mechanics of trading, price determination, hedging strategies; Swaps: definition and valuation; Options: payoffs, arbitrage bounds, trading strategies, the binomial model, the Black-Scholes model and its relationship to the binomial, hedging, American options and dividends, options on futures, limitations of the binomial and Black-Scholes Models.
+
+Intended learning outcomes
+On successful completion of this subject students should be able to:
+
+Explain the role of derivatives exchanges and the characteristics of derivative securities;
+Explain the role of arbitrage as a basis for determining the prices of derivative securities;
+Explain the mechanics of trading futures contracts, forward contracts and options;
+Design and manipulate payoff diagrams for various derivative securities;
+Calculate option prices using the Black-Scholes and binomial models;
+Explain how derivative securities can be used in hedging;
+Reflect on the theoretical limitations of key derivatives pricing models and on practical difficulties that arise in their implementation.
+
+Generic skills
+
+• **High level of development:** problem solving; statistical reasoning; application of theory to practice; synthesis of data and other information; evaluation of data and other information.
+• **Moderate level of development:** written communication; interpretation and analysis; critical thinking; use of computer software.
+• **Some level of development:** oral communication; collaborative learning; team work; accessing data and other information from a range of sources.
+
 # Extracurricular:
 
 ## Tea and Coffee Society, University of New South Wales, Sydney, Australia
@@ -807,10 +1550,40 @@ Bicycle volunteer mechanic July 2024 – Present
 - I also assist other mechanic occasionally.
 - I inspect and repair donated bikes and refurbish them to an acceptable standard.
 - While repairing bicycles, I follow the LIFT approach:
-- Listen: to the customer. They will report issues and symptoms.
-- Inspect: the bike to confirm reported symptoms and identify the cause.
-- Fix: or replace damaged parts.
-- Test: the repairs and make sure the bike is safe to ride.
+  - Listen: to the customer. They will report issues and symptoms.
+  - Inspect: the bike to confirm reported symptoms and identify the cause.
+  - Fix: or replace damaged parts.
+  - Test: the repairs and make sure the bike is safe to ride.
+
+# 课外活动
+
+## 新南威尔士大学 茶与咖啡社团
+
+社团活动委员会成员｜2024 年 2 月 1 日 – 2024 年 11 月 20 日
+
+- 隶属于新南威尔士大学的学生社团，致力于向全校师生推广茶饮与咖啡文化。
+- 负责执行社团活动，并与社团活动委员会其他成员共同策划、构思全新活动方案。
+
+## 新南威尔士大学 自行车社团
+
+财务负责人｜2024 年 7 月 – 2025 年 7 月
+
+财务管理与预算：作为社团联合创始人，全面统筹财务运营，严格把控账务核算与预算规划，确保账目清晰规范、资金使用合理高效。
+组织骑行活动，促进社团社群交流，同时锻炼并提升了自身领导力与沟通能力。
+
+## 自行车循环再利用俱乐部（Cycle Re-Cycle Club）
+
+自行车志愿维修技师｜2024 年 7 月 – 至今
+
+- CRC 是位于悉尼滑铁卢区的非营利性自行车工坊，主要接收捐赠的二手自行车进行翻新，并以成本价出售；同时提供车辆维修服务，并向社区居民教授自行车维修技能。
+- 主要负责协助居民维修自行车，分步教学如何调试刹车、修补轮胎漏气及其他常见保养项目。
+- 偶尔协助其他维修技师开展工作。
+- 对捐赠车辆进行检查、维修与翻新，使其达到安全可用标准。
+- 维修过程严格遵循 LIFT 工作流程：
+  - 倾听（Listen）：认真听取车主描述车辆问题与故障表现。
+  - 检查（Inspect）：全面检查车辆，核实问题并寻找故障的原因。
+  - 修复（Fix）：维修或更换损坏的零部件。
+  - 测试（Test）：对维修成果进行试车检验，确保车辆骑行安全。
 
 # More about myself:
 
