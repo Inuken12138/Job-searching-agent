@@ -101,6 +101,76 @@ Tableau
 
 *Business Impact Focus* – Solutions deliver measurable value: inventory automation saves 10 hours/month in manual work; payroll tool cuts half-day process to 10 minutes; 3D kitchen planner integrates directly with production automation.
 
+---
+
+# **AI-Assisted Development & Automation Expertise**
+
+I leverage AI tools strategically to accelerate development velocity, maintain code quality, and automate repetitive work. My approach emphasizes human judgment for critical decisions while offloading structured, deterministic tasks to AI agents.
+
+## GitHub Copilot for Software Development
+
+### Feature Planning & Design (Planning Agent)
+- Use Copilot's Planning Agent to translate feature ideas into conceptual and technical specifications before implementation.
+- Engage in iterative refinement: I provide initial ideas → agent generates structured technical design doc → I review and suggest customizations → agent updates the plan → iterate until comprehensive feature documentation is complete.
+- This structured planning phase reduces false starts and ensures alignment between business intent and technical approach before code is written.
+- Output: Detailed, maintainable `.md` planning documents that serve as specifications for the implementation phase.
+
+### Implementation & Integration (Coding Agent)
+- Deploy Copilot's Coding Agent to implement planned features in logical, testable slices.
+- Workflow: For each slice, agent generates code → I review implementation against the planning document → I verify that generated code matches intended behavior → I test the integrated feature locally → upon validation, merge the feature branch into main.
+- This slice-by-slice verification approach ensures quality and prevents accumulation of debt.
+
+### Quality Assurance & Testing
+- **Backend Testing:** Use Copilot to generate test cases and fixtures for Django applications, creating comprehensive test suites in the Django test directory that cover happy paths, edge cases, and error handling.
+- **API Testing:** Validate that all REST endpoints behave as specified through automated API testing (request verification, response validation, status codes, error responses).
+- **Frontend Testing:** Ask Copilot to write Playwright-based test scripts that automate user interaction simulation (clicking buttons, entering text, navigating flows), eliminating manual QA and enabling fast regression testing.
+- **Result:** Production code is backed by automated test coverage, and regressions are caught before deployment.
+
+## GitHub Copilot for Document Automation & Cover Letter Generation
+
+### Multi-Agent Orchestration for Cover Letter Planning
+
+I designed and implemented a repository-based multi-agent system to dramatically increase cover letter throughput while maintaining high customization:
+
+**Stage 1: Research & Planning**
+- Built a batch **orchestrator agent** that accepts 1–5 job descriptions in a single request and spawns specialized subagents:
+  - **Job Description Analysis Subagent:** Extracts key requirements, skills, and company context from the JD.
+  - **Company Research Subagent:** Fetches and summarizes company mission, product lines, culture, and recent initiatives from the company website and public sources.
+  - **Candidate Profile Matcher Subagent:** Reads my background document (complete skill list) and identifies relevant experience, projects, and evidence that match the job requirements.
+- Each job is processed independently, and outputs are aggregated into a structured **planning table** with columns representing cover letter components: (e.g., skills match, motivation, company alignment, unique value proposition, call to action).
+- These tables preserve factual information (sourced from JD + company research + background doc) while leaving "human reasoning" fields blank for me to fill with personalized insights.
+
+**Stage 2: Human Customization**
+- I review the planning tables and fill in subjective fields: *Why do I genuinely want to join this company?*, *What aspect of their mission resonates with me?*, *How do I see my role contributing?*
+- This balances AI efficiency (factual data extraction) with human authenticity (personal motivation and storytelling).
+
+**Stage 3: Conversion to Final Letters**
+- Another **orchestrator agent** batch-processes completed planning tables, invoking a **Cover Letter Generation Subagent** for each one.
+- Each subagent transforms its assigned planning table into a polished, single-page cover letter with proper flow, narrative arc, and tailored language.
+- Output: 1 finished cover letter per job, ready to submit or minor-edit.
+
+### Key Benefits & Results
+- **Throughput:** Process 5 job applications in 1 request cycle instead of writing each cover letter manually.
+- **Token Efficiency:** Batch processing and subagent specialization reduce redundant context and token waste compared to naive single-agent approaches.
+- **Quality:** Each letter is tailored to the specific job and company (not templated) because the planning table captures job-specific and company-specific research.
+- **Consistency:** Hard factual sections (skills, experience evidence) are consistently sourced from my background document, reducing errors or inconsistencies.
+- **Flexibility:** I retain editorial control; I fill in the "human" sections (motivation, personal narrative) so the final letter reflects my authentic voice.
+
+### Automation of Repetitive Writing Tasks (General)
+- Beyond cover letters, I use Copilot to accelerate other document-writing tasks: updating resume sections, generating bullet-point summaries of projects, drafting descriptions for portfolio entries, and refining tone/clarity in technical writing.
+- Task: Human provides outline or rough ideas → Copilot generates structured first draft → I review and customize → submit or iterate.
+- This reduces writer's block and the cognitive load of starting from a blank page, especially for repetitive fields or sections that follow a predictable format.
+
+## Philosophy & Best Practices
+
+1. **AI for Deterministic Tasks:** Use agents for code generation, test automation, documentation, and data extraction where correctness can be verified objectively.
+2. **Humans for Decisions:** Reserve complex trade-offs, creative framing (motivation, storytelling), security decisions, and strategic choices for human judgment.
+3. **Verification Always:** Never ship AI-generated code or content without human review and testing; AI is a productivity multiplier, not a replacement.
+4. **Iterative Refinement:** Structured prompting and iterative feedback loops (plan → review → refine → replan) yield better results than single-shot prompts.
+5. **Batch Efficiency:** Design multi-agent systems with specialization and batching to reduce token usage and improve throughput on bulk tasks.
+
+---
+
 # 个人作品
 
 ## SongFei Construction & Decoration Co., Ltd – ERP & E-Commerce Platform (Dec 2024–Present)
