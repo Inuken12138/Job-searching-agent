@@ -138,23 +138,23 @@ I designed and implemented a repository-based multi-agent system to dramatically
   - **Company Research Subagent:** Fetches and summarizes company mission, product lines, culture, and recent initiatives from the company website and public sources.
   - **Candidate Profile Matcher Subagent:** Reads my background document (complete skill list) and identifies relevant experience, projects, and evidence that match the job requirements.
 - Each job is processed independently, and outputs are aggregated into a structured **planning table** with columns representing cover letter components: (e.g., skills match, motivation, company alignment, unique value proposition, call to action).
-- These tables preserve factual information (sourced from JD + company research + background doc) while leaving "human reasoning" fields blank for me to fill with personalized insights.
+- These tables are intended to preserve factual information and supporting context in an evidence-rich form so later drafting can choose the strongest material rather than relying on a compressed summary.
 
 **Stage 2: Human Customization**
-- I review the planning tables and fill in subjective fields: *Why do I genuinely want to join this company?*, *What aspect of their mission resonates with me?*, *How do I see my role contributing?*
-- This balances AI efficiency (factual data extraction) with human authenticity (personal motivation and storytelling).
+- I review the planning tables and decide which factual evidence, context, and motivation signals are most compelling for the specific application.
+- This balances AI efficiency (broad factual capture) with human judgment (selecting the best narrative angle).
 
 **Stage 3: Conversion to Final Letters**
 - Another **orchestrator agent** batch-processes completed planning tables, invoking a **Cover Letter Generation Subagent** for each one.
-- Each subagent transforms its assigned planning table into a polished, single-page cover letter with proper flow, narrative arc, and tailored language.
+- Each subagent transforms its assigned planning table into a polished, single-page cover letter by filtering and compressing the evidence into a coherent narrative.
 - Output: 1 finished cover letter per job, ready to submit or minor-edit.
 
 ### Key Benefits & Results
 - **Throughput:** Process 5 job applications in 1 request cycle instead of writing each cover letter manually.
 - **Token Efficiency:** Batch processing and subagent specialization reduce redundant context and token waste compared to naive single-agent approaches.
-- **Quality:** Each letter is tailored to the specific job and company (not templated) because the planning table captures job-specific and company-specific research.
-- **Consistency:** Hard factual sections (skills, experience evidence) are consistently sourced from my background document, reducing errors or inconsistencies.
-- **Flexibility:** I retain editorial control; I fill in the "human" sections (motivation, personal narrative) so the final letter reflects my authentic voice.
+- **Quality:** Each letter is tailored to the specific job and company (not templated) because the planning table captures job-specific and company-specific research in factual detail before the final narrative is written.
+- **Consistency:** Hard factual sections (skills, experience evidence) are consistently sourced from my background document, reducing errors or inconsistencies, while the final drafting step decides what to emphasize.
+- **Flexibility:** I retain editorial control; the evidence-rich planning table gives enough context for a strong final narrative without forcing the first stage to be concise.
 
 ### Automation of Repetitive Writing Tasks (General)
 - Beyond cover letters, I use Copilot to accelerate other document-writing tasks: updating resume sections, generating bullet-point summaries of projects, drafting descriptions for portfolio entries, and refining tone/clarity in technical writing.
